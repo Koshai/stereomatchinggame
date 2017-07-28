@@ -1,0 +1,104 @@
+h1, h2, h3, h4, h5, h6, body {
+font-family: 'Lato', sans-serif;
+}
+
+.image {
+	position: absolute;
+	top: 50px;
+	left: 1400px;
+}
+
+.button-deepblue {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+.drum1 {
+    position: absolute;
+	top: 80px;
+	right: 0;
+	left: 700px;
+	background-color: rgba(204, 0, 102, 100);
+	text-align:center;
+	font-size:24px;
+	padding-top: 80px;
+    border: 3px solid #000;
+    height:200px;
+    width:200px;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+}
+
+.drum2 {
+	position: absolute;
+	top: 260px;
+	right: 0;
+	left: 300px;
+	background-color: rgba(204, 0, 102, 100);
+	text-align:center;
+	font-size:24px;
+	padding-top: 80px;
+    border: 3px solid #000;
+    height:200px;
+    width:200px;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+}
+
+.drum3 {
+	position: absolute;
+	top: 260px;
+	right: 0;
+	left: 1100px;
+	background-color: rgba(204, 0, 102, 100);
+	text-align:center;
+	font-size:24px;
+	padding-top: 80px;
+    border: 3px solid #000;
+    height:200px;
+    width:200px;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+}
+
+.scoring {
+	position: absolute;
+	top: 440px;
+	right: 0;
+	left: -80px;
+	font-size:48px;
+	text-align:center;
+}
+
+.startbutton {
+	position: absolute;
+	top: 560px;
+	right: 0;
+	left: 720px;
+	background-color: rgba(204, 0, 102, 100);
+	text-align:center;
+	font-size:24px;
+	padding-top: 10px;
+	border: 3px solid #000;
+    height:50px;
+    width:150px;
+}
+
+.replaybutton {
+	position: absolute;
+	top: 560px;
+	right: 0;
+	left: 720px;
+	background-color: rgba(204, 0, 102, 100);
+	text-align:center;
+	font-size:24px;
+	padding-top: 10px;
+	border: 3px solid #000;
+    height:50px;
+    width:150px;
+}
+
+.sometexts {
+	top: 500px;
+}

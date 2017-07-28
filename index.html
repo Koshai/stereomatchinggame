@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Project Title</title>
+
+<link rel="stylesheet" type="text/css" href="css/sleek.ui.css">
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/sleek.ui.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	
+	<div class="drum1 click" id="1">Speaker 1</div>
+	<div class="drum2 click" id="2">Speaker 2</div>
+	<div class="drum3 click" id="3">Speaker 3</div>
+	<div class="scoring" id="scorelabel">0</div>
+    
+    <div class="replaybutton" id="replay">Replay</div>
+    <div class="startbutton" id="start">Start</div>
+    
+    
+    <a class="button-small button-deepblue" href="javascript:void(0)" data-role="modal" data-target="#modal">Instructions</a> 	<div class="image"><img src="DolbyAudio_Hrztl_black.png"><h5>Powered by Dolby®</h5></div>
+
+<div id="modal" class="modal-wrapper">
+    <div class="modal-header">
+        <h3>Instructions</h3>
+        <h6>1. Match the position of the soft by tapping/clicking respective boxes</h6>
+        <h6>2. If incorrected box is played, you lose</h6>
+        <h6>3. If you do not tap within 1 and half a second, you lose</h6>
+        <h6>4. You score 1 for each correct match.</h6>
+        <h6>5. Tip: Play it with a rhythemic feeling.</h6>
+
+    </div>
+    <div class="modal-footer text-right">
+        <a href="javascript:void(0)" class="button-small button-gray" data-target="closeModal">Close</a> 
+    </div>
+    
+</div>
+</body>
+</html>
